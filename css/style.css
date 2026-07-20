@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background-color: darkgray;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  width: 90%;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgb(190, 190, 190);
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input {
+  background-color: rgb(46, 46, 46);
+  color: white;
+}
+
+input::placeholder {
+  color: rgb(200, 200, 200);
+}
+
+button {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.agendamento {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid black;
+}
+
+.agendamento p {
+  padding: 10px;
+  margin: 8px 0;
+  background-color: white;
+  border-radius: 5px;
+}

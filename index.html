@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Sistema de Agendamento</title>
+  </head>
+
+  <body>
+    <h2>Agendamento</h2>
+
+    <input
+      type="text"
+      id="nome"
+      placeholder="Digite seu nome"
+      oninput="this.value = this.value.replace(/[^A-Za-zÀ-ÿ\s]/g, '')"
+    />
+
+    <input type="date" id="data" />
+
+    <input type="time" id="hora" />
+
+    <button type="button" onclick="agendar()">Agendar</button>
+
+    <div class="agendamento" id="listaAgendamentos">
+      <h3>Agendados:</h3>
+    </div>
+
+    <script src="script.js/scriptt.js"></script>
+  </body>
+</html>
