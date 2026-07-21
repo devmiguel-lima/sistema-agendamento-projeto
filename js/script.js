@@ -1,7 +1,7 @@
 function agendar() {
   const nome = document.getElementById("nome").value.trim();
 
-  const data = document.getElementById("data").value;
+ const data = document.getElementById("data").value;
 
   const hora = document.getElementById("hora").value;
 
