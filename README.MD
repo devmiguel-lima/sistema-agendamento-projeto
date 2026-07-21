@@ -2,57 +2,43 @@
 
 ## Descrição
 
-Este é um projeto simples de um sistema de agendamento desenvolvido com HTML, CSS e JavaScript.
+Projeto simples de sistema de agendamento desenvolvido com HTML, CSS e JavaScript. Permite que o usuário informe nome, data e horário e exibe os agendamentos na tela.
 
-O sistema permite que o usuário informe seu nome, escolha uma data e um horário para realizar um agendamento. Após clicar no botão **Agendar**, as informações são exibidas na tela.
-
-## Tecnologias Utilizadas
+## Tecnologias
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (Vanilla)
 
 ## Funcionalidades
 
 - Cadastro de agendamentos.
 - Validação de campos obrigatórios.
-- Permite apenas letras no campo de nome.
-- Exibe os agendamentos na tela.
-- Limpa os campos após cada agendamento.
+- Validação básica do campo de nome (apenas letras).
+- Exibição dos agendamentos na tela.
+- Limpeza do formulário após o agendamento.
 
-## Estrutura do Projeto
+## Estrutura do projeto (atual)
 
 ```text
-Sistema-Agendamento/
+c:\Users\migue\OneDrive\Documentos\sistema-agendamento-projeto/
 │
 ├── index.html
-├── scriptt.js
-├── README.md
-│
+├── script.js/            # pasta contendo o arquivo de script atual
+│   └── scriptt.js
+├── README.MD
 └── css/
     └── style.css
 ```
 
-## Como executar
+Observação: existe uma inconsistência no projeto onde o arquivo JavaScript está dentro de uma pasta chamada `script.js` e o arquivo chama-se `scriptt.js`. Recomenda-se mover/renomear para `script.js` na raiz para simplificar a estrutura.
 
-1. Clone este repositório:
+## Execução (local)
 
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
+1. Abra a pasta do projeto no seu gerenciador de arquivos.
+2. Abra `index.html` em um navegador moderno (Chrome, Edge, Firefox).
 
-2. Abra a pasta do projeto.
-
-3. Execute o arquivo `index.html` em qualquer navegador.
-
-## Como utilizar
-
-1. Digite o nome.
-2. Selecione uma data.
-3. Selecione um horário.
-4. Clique em **Agendar**.
-5. O agendamento será exibido abaixo do formulário.
 
 ## Autor
 
-Projeto desenvolvido por Miguel como prática dos conceitos de HTML, CSS e JavaScript.
+Miguel — projeto pessoal para praticar HTML, CSS e JavaScript.
