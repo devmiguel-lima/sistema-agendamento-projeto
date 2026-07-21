@@ -32,4 +32,4 @@ Este projeto é uma interface simples que permite ao usuário inserir um nome, e
 
 ## Autor
 
-Miguel santos Almeida de Lima / Afim de usar conhecimentos sobre HMTL, CSS E JS
+Miguel santos Almeida de Lima / Afins de usar conhecimentos sobre HMTL, CSS E JS
