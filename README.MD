@@ -12,32 +12,37 @@ Projeto simples de sistema de agendamento desenvolvido com HTML, CSS e JavaScrip
 
 ## Funcionalidades
 
-- Cadastro de agendamentos.
-- Validação de campos obrigatórios.
-- Validação básica do campo de nome (apenas letras).
-- Exibição dos agendamentos na tela.
-- Limpeza do formulário após o agendamento.
+- Cadastro de agendamentos
+- Validação de campos obrigatórios
+- Validação básica do campo de nome (apenas letras)
+- Exibição dos agendamentos na tela
+- Limpeza do formulário após o agendamento
 
 ## Estrutura do projeto (atual)
 
 ```text
-c:\Users\migue\OneDrive\Documentos\sistema-agendamento-projeto/
+sistema-agendamento-projeto/
 │
 ├── index.html
-├── script.js/            # pasta contendo o arquivo de script atual
+├── js/
 │   └── scriptt.js
-├── README.MD
+├── README.md
 └── css/
     └── style.css
 ```
-
-Observação: existe uma inconsistência no projeto onde o arquivo JavaScript está dentro de uma pasta chamada `script.js` e o arquivo chama-se `scriptt.js`. Recomenda-se mover/renomear para `script.js` na raiz para simplificar a estrutura.
 
 ## Execução (local)
 
 1. Abra a pasta do projeto no seu gerenciador de arquivos.
 2. Abra `index.html` em um navegador moderno (Chrome, Edge, Firefox).
 
+## Como utilizar
+
+1. Digite o nome no campo "Nome".
+2. Selecione uma data.
+3. Selecione um horário.
+4. Clique em **Agendar**.
+5. O agendamento aparecerá na lista abaixo do formulário.
 
 ## Autor
 
