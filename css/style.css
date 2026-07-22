@@ -48,10 +48,8 @@ button {
 }
 
 button:hover {
- 
   background-color: rgb(220, 220, 220);
 }
-
 
 .agendamento {
   margin-top: 20px;
